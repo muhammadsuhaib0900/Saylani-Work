@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="main">
+            <div class="dte">
+                <button id="dte" onclick="dte()" style="position: absolute;top: 10px;color: black;">Date</button>
+                <button id="dy" onclick="dy()"
+                    style="position: absolute;top: 80px; color: black;">Day</button>
+            </div>
+            <input readonly type="text" name="" id="inp">
+            <br>
+            <button onclick="clr()" style="background-color: gray; color: black;">AC</button>
+            <button onclick="del()" style="background-color: gray; color: black;">Del</button>
+            <button onclick="dabaya('%')" style="background-color: gray; color: black;">%</button>
+            <button onclick="dabaya('/')" style="background-color: orange;">/</button>
+            <br>
+            <button onclick="dabaya(7)" style="background-color: rgb(40, 40, 40);">7</button>
+            <button onclick="dabaya(8)" style="background-color: rgb(40, 40, 40);">8</button>
+            <button onclick="dabaya(9)" style="background-color: rgb(40, 40, 40);">9</button>
+            <button onclick="dabaya('*')" style="background-color: orange;">*</button>
+            <br>
+            <button onclick="dabaya(4)" style="background-color: rgb(40, 40, 40);">4</button>
+            <button onclick="dabaya(5)" style="background-color: rgb(40, 40, 40);">5</button>
+            <button onclick="dabaya(6)" style="background-color: rgb(40, 40, 40);">6</button>
+            <button onclick="dabaya('-')" style="background-color: orange;">-</button>
+            <br>
+            <button onclick="dabaya(1)" style="background-color: rgb(40, 40, 40);">1</button>
+            <button onclick="dabaya(2)" style="background-color: rgb(40, 40, 40);">2</button>
+            <button onclick="dabaya(3)" style="background-color: rgb(40, 40, 40);">3</button>
+            <button onclick="dabaya('+')" style="background-color: orange;">+</button>
+            <br>
+            <button onclick="dabaya(0)" style="width: 150px; background-color:rgb(40, 40, 40) ;">0</button>
+            <button onclick="dabaya('.')" style="background-color: rgba(40, 40, 40)">.</button>
+            <button onclick="eq()" style="background-color: orange;">=</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
